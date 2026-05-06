@@ -1,0 +1,29 @@
+# ignore .git related folders
+.git/
+.github/
+.gitignore
+# project scope:
+# - active: Go2 agile locomotion
+# - upstream-kept (inactive): g1/h1/mimic/deploy extras
+# ignore docs
+docs/
+# ignore logs
+**/logs/
+**/runs/
+**/output/*
+**/outputs/*
+**/videos/*
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+*.tmp
+# ignore docker
+docker/cluster/exports/
+docker/.container.cfg
+# ignore recordings
+recordings/
+# ignore __pycache__
+**/__pycache__/
+**/*.egg-info/
+# ignore isaac sim symlink
+_isaac_sim?
