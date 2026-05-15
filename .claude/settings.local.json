@@ -1,7 +1,0 @@
-{
-  "permissions": {
-    "allow": [
-      "Bash(python -m py_compile source/unitree_rl_lab/unitree_rl_lab/networks/policy/actor_critic.py source/unitree_rl_lab/unitree_rl_lab/networks/policy/actor_critic_rnn.py source/unitree_rl_lab/unitree_rl_lab/networks/trainer/stage_manager.py source/unitree_rl_lab/unitree_rl_lab/networks/encoders/lidar_encoder.py)"
-    ]
-  }
-}
